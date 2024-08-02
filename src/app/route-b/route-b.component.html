@@ -1,0 +1,6 @@
+@if (profitData$ | async; as profitData) {
+    <p>Best time to buy: <strong>{{ profitData.buyIndex }}</strong></p>
+    <p>Best time to sell: <strong>{{ profitData.sellIndex }}</strong></p>
+    <p>Profit: <strong>{{ profitData.maxProfit }}</strong></p>
+}
+
